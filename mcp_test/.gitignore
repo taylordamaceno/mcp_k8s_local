@@ -1,0 +1,33 @@
+# Arquivos de ambiente com credenciais
+.env
+.env.local
+.env.*.local
+
+# Diretórios Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Diretórios Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE/editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Diretório do MCP Server (código de terceiros)
+mcp-server-kubernetes/ 
